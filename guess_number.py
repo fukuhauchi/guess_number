@@ -10,7 +10,7 @@ while True:
         print('Ваше число меньше того, что загадано')
     elif supposition > random_num:
         print('Ваше число больше того, что загадано')
-    else:
+    elif supposition == random_num:
         break
 
 print('Отличная интуиция! Вы угадали число :)')
